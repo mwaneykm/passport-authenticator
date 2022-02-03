@@ -1,6 +1,6 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Contracts;
+<?php namespace mwaneykm\PassportAuthenticator\Contracts;
 
-use Keukenmagazijn\PassportAuthenticator\Entities\ExternalOauth2Credential;
+use mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
 
 interface AuthenticatorInterface
 {

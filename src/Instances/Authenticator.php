@@ -1,9 +1,9 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Instances;
+<?php namespace mwaneykm\PassportAuthenticator\Instances;
 
-use Keukenmagazijn\PassportAuthenticator\Contracts\AuthenticatorInterface;
-use Keukenmagazijn\PassportAuthenticator\Entities\ExternalOauth2Credential;
-use Keukenmagazijn\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
-use Keukenmagazijn\PassportAuthenticator\Repositories\Eloquent\EloquentExternalOauth2CredentialsRepository;
+use mwaneykm\PassportAuthenticator\Contracts\AuthenticatorInterface;
+use mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
+use mwaneykm\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
+use mwaneykm\PassportAuthenticator\Repositories\Eloquent\EloquentExternalOauth2CredentialsRepository;
 use GuzzleHttp\Client;
 
 class Authenticator implements AuthenticatorInterface

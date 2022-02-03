@@ -1,7 +1,7 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Providers;
+<?php namespace mwaneykm\PassportAuthenticator\Providers;
 
-use Keukenmagazijn\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
-use Keukenmagazijn\PassportAuthenticator\Repositories\Eloquent\EloquentExternalOauth2CredentialsRepository;
+use mwaneykm\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
+use mwaneykm\PassportAuthenticator\Repositories\Eloquent\EloquentExternalOauth2CredentialsRepository;
 use RKooistra\SuperEloquentRepository\Abstracts\ConcreteResourceRepository;
 
 class PassportAuthenticatorServiceProvider extends \Illuminate\Support\ServiceProvider

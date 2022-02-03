@@ -1,7 +1,7 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Mockables;
+<?php namespace mwaneykm\PassportAuthenticator\Mockables;
 
-use Keukenmagazijn\PassportAuthenticator\Factories\ConcretePassportAuthenticatorFactory;
-use Keukenmagazijn\PassportAuthenticator\Instances\Authenticator;
+use mwaneykm\PassportAuthenticator\Factories\ConcretePassportAuthenticatorFactory;
+use mwaneykm\PassportAuthenticator\Instances\Authenticator;
 
 class Mock_ConcretePassportAuthenticatorFactory extends ConcretePassportAuthenticatorFactory
 {

@@ -1,4 +1,4 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Contracts;
+<?php namespace mwaneykm\PassportAuthenticator\Contracts;
 
 interface SendsRequests
 {

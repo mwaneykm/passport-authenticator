@@ -1,4 +1,4 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Repositories\Contracts;
+<?php namespace mwaneykm\PassportAuthenticator\Repositories\Contracts;
 
 interface ExternalOauth2CredentialsRepositoryInterface
 {

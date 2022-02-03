@@ -1,4 +1,4 @@
-<?php namespace Keukenmagazijn\PassportAuthenticator\Entities;
+<?php namespace mwaneykm\PassportAuthenticator\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
