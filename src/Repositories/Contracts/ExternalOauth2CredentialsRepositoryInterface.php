@@ -1,4 +1,4 @@
-<?php namespace mwaneykm\PassportAuthenticator\Repositories\Contracts;
+<?php namespace Mwaneykm\PassportAuthenticator\Repositories\Contracts;
 
 interface ExternalOauth2CredentialsRepositoryInterface
 {

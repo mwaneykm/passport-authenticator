@@ -1,4 +1,4 @@
-<?php namespace mwaneykm\PassportAuthenticator\Contracts;
+<?php namespace Mwaneykm\PassportAuthenticator\Contracts;
 
 interface SendsRequests
 {

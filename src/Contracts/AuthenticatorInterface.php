@@ -1,6 +1,6 @@
-<?php namespace mwaneykm\PassportAuthenticator\Contracts;
+<?php namespace Mwaneykm\PassportAuthenticator\Contracts;
 
-use mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
+use Mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
 
 interface AuthenticatorInterface
 {

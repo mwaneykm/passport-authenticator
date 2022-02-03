@@ -1,7 +1,7 @@
-<?php namespace mwaneykm\PassportAuthenticator\Factories;
+<?php namespace Mwaneykm\PassportAuthenticator\Factories;
 
-use mwaneykm\PassportAuthenticator\Contracts\IsFactory;
-use mwaneykm\PassportAuthenticator\Instances\Authenticator;
+use Mwaneykm\PassportAuthenticator\Contracts\IsFactory;
+use Mwaneykm\PassportAuthenticator\Instances\Authenticator;
 
 abstract class ConcretePassportAuthenticatorFactory implements IsFactory
 {

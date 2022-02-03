@@ -1,8 +1,8 @@
-<?php namespace mwaneykm\PassportAuthenticator\Abstracts;
+<?php namespace Mwaneykm\PassportAuthenticator\Abstracts;
 
-use mwaneykm\PassportAuthenticator\Contracts\SendsRequests;
-use mwaneykm\PassportAuthenticator\Instances\Authenticator;
-use mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
+use Mwaneykm\PassportAuthenticator\Contracts\SendsRequests;
+use Mwaneykm\PassportAuthenticator\Instances\Authenticator;
+use Mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
 use GuzzleHttp\Client;
 
 abstract class ConcretePassportAuthenticator implements SendsRequests

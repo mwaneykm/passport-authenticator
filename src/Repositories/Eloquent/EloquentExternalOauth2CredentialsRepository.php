@@ -1,7 +1,7 @@
-<?php namespace mwaneykm\PassportAuthenticator\Repositories\Eloquent;
+<?php namespace Mwaneykm\PassportAuthenticator\Repositories\Eloquent;
 
-use mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
-use mwaneykm\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
+use Mwaneykm\PassportAuthenticator\Entities\ExternalOauth2Credential;
+use Mwaneykm\PassportAuthenticator\Repositories\Contracts\ExternalOauth2CredentialsRepositoryInterface;
 use \RKooistra\SuperEloquentRepository\Abstracts\ConcreteResourceRepository;
 
 class EloquentExternalOauth2CredentialsRepository extends ConcreteResourceRepository implements ExternalOauth2CredentialsRepositoryInterface
