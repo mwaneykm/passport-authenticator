@@ -5,7 +5,7 @@
     "type": "library",
     "license": "MIT",
     "prefer-stable": false,
-    "version": "1.1.9",
+    "version": "1.1.10",
     "authors": [
         {
             "name": "Remy Kooistra",
@@ -29,10 +29,10 @@
     "extra" : {
         "laravel" : {
             "providers" : [
-                "Keukenmagazijn\\PassportAuthenticator\\Providers\\PassportAuthenticatorServiceProvider"
+                "Mwaneykm\\PassportAuthenticator\\Providers\\PassportAuthenticatorServiceProvider"
             ],
             "aliases": {
-                "PassportAuthenticator": "Keukenmagazijn\\PassportAuthenticator\\Instances\\ConcretePassportAuthenticator"
+                "PassportAuthenticator": "Mwaneykm\\PassportAuthenticator\\Instances\\ConcretePassportAuthenticator"
             }
         }
     }
